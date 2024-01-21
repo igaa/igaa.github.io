@@ -1,109 +1,156 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igga Fauzi Rahman - .NET Developer & AI Enthusiast</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <title>Resume - Igga Fauzi Rahman</title>
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
 
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      text-align: justify;
+    }
+
+    .profile-picture-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .profile-picture {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      color: #666;
+      padding: 15px;
+      text-align: center;
+    }
+    #contactInfoSection {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    /* Adjusted container width */
+    .container {
+      max-width: 800px;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient from green to blue */
+      padding: 10px 0;
+      color: #fff; /* Text color for higher contrast */
+      text-align: center;
+    }
+
+    /* Background Image Styling */
+    .background-image {
+      background-image: url('https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE3MDU4MTM3MzE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800'); /* Replace with the actual path or URL to your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 400px; /* Fixed height */
+      width: 100%; /* Full width */
+    }
+    .profile-picture{
+        border-style: solid;
+        border-color: #ffff;
+    }
+  </style>
 </head>
 <body>
-  <div class="navigation">
-    <ul>
-      <li class="list active">
-        <a href="#">
-          <span class="icon">
-            <ion-icon name="home-outline"></ion-icon>
-          </span>
-          <span class="text">Home</span>
-        </a>
-      </li>
-      <li class="list">
-        <a href="#">
-          <span class="icon">
-            <ion-icon name="person-outline"></ion-icon>
-          </span>
-          <span class="text">Profile</span>
-        </a>
-      </li>
-      <li class="list">
-        <a href="#">
-          <span class="icon">
-            <ion-icon name="chatbubble-outline"></ion-icon>
-          </span>
-          <span class="text">Message</span>
-        </a>
-      </li>
-      <li class="list">
-        <a href="#">
-          <span class="icon">
-            <ion-icon name="camera-outline"></ion-icon>
-          </span>
-          <span class="text">Photos</span>
-        </a>
-      </li>
-      <li class="list">
-        <a href="#">
-          <span class="icon">
-            <ion-icon name="settings-outline"></ion-icon>
-          </span>
-          <span class="text">Settings</span>
-        </a>
-      </li>
-      <div class="indicator"></div>
-    </ul>
-  </div>
-  <div id="root" class="background">
+  <header>
+    <h2 style="font-size: 18px;">.NET Developer & AI Enthusiast</h2>
+  </header>
+
+  <main>
+    <!-- Parallax Image -->
+    <div class="background-image"></div>
     <div class="container">
-      <div class="card">
-        <div class="cover-bg full-landing-image"></div>
-        <div class="user-info-wrap">
-          <div class="user-photo"></div>
-          <div class="user-info">
-            <div class="user-name">Igga Fauzi Rahman</div>
-            <div class="user-title">.Net Developer</div>
-          </div>
+      <section>
+        <!-- Centered Profile Picture -->
+        <div class="profile-picture-container" style="margin-top: -100px;">
+          <!-- Replace the 'path/to/your/image.jpg' with the actual path or URL to your image -->
+          <img style="border-radius: 165px;
+          width: 200px;" class="profile-picture" src="https://media.licdn.com/dms/image/C4E03AQGjb3Dc9aZJbQ/profile-displayphoto-shrink_400_400/0/1585226071944?e=1710979200&v=beta&t=6EmlAQNwjlRnTktzRVFHKAa9DytwJll16SKi7Pvoq2I" alt="Igga Fauzi Rahman" class="profile-picture">
         </div>
-        <div class="user-bio">
-          <p>Web enthusiast. Travelaholic. Friendly communicator. Coffee enthusiast. Music geek.
-          Food fan. Gamer.
-          </p>
-          <div class="social">
-            <div class="social-icons">
-              <a href="" class="fa">
-                <span class="icon">
-                  <ion-icon name="camera-outline"></ion-icon>
-                </span>
-              </a>
-            </div> 
-            <div class="message">
-              <a href="" class="fa">
-                <i class="fa fa-envelope-o"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
+
+      <section id="contactInfoSection">
+        <h5>Contact Information</h5>
+        <p class="email">Email: <a href="mailto:igaa.rahman@gmail.com">igaa.rahman@gmail.com</a> | WhatsApp: <a href="tel:+6285155449709">0851-5544-9709</a></p>
+        <p class="whatsapp"></p>
+      </section>
+
+      <section>
+        <h2>About Me</h2>
+        <p>I am a dedicated .NET developer with a profound passion for creating clean, maintainable, and efficient code. My journey into the world of technology began with a strong educational foundation in [Your Degree] from [Your University], providing me with a comprehensive understanding of computer science and software development.</p>
+      </section>
+
+      <section>
+        <h2>Clean Code Advocate</h2>
+        <p>Throughout my [X] years of experience in software development, I have consistently emphasized the importance of clean code practices. I believe that writing code that is easy to read, maintain, and understand is crucial for delivering high-quality software solutions. This commitment to clean code has been instrumental in my projects, contributing to their robustness and scalability.</p>
+      </section>
+
+      <section>
+        <h2>AI Exploration and Achievements</h2>
+        <p>One of the highlights of my AI exploration involves the development of an image classification model. Specifically, I have successfully built an AI system that performs image classification to distinguish between organic and non-organic waste. This project showcases my interest and proficiency in leveraging artificial intelligence for practical applications.</p>
+      </section>
+
+      <section>
+        <h2>Image Classification for Waste Management</h2>
+        <p>The image classification model I developed utilizes advanced techniques in machine learning, enabling it to analyze and categorize images of waste into organic and non-organic categories. This technology has immense potential for waste management systems, allowing for more efficient sorting and recycling processes. By contributing to the development of such solutions, I aim to make a positive impact on environmental sustainability.</p>
+      </section>
+
+      <section>
+        <h2>Future Endeavors</h2>
+        <p>Looking ahead, I am eager to continue exploring the intersection of .NET development and AI. I aspire to contribute to the evolving landscape of artificial intelligence by integrating cutting-edge technologies into software solutions. My goal is to stay at the forefront of innovation and make meaningful contributions to the field.</p>
+      </section>
     </div>
-  </div>
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/jquery/jquery.ripples-min.js"></script>
-  <!-- Custom scripts for this template -->
-  <script src="js/custom.js"></script>
+
+    <!-- Parallax Initialization -->
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems);
+      });
+    </script> -->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Igga Fauzi Rahman</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
-
