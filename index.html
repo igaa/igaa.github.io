@@ -64,32 +64,43 @@
     .container {
       max-width: 800px;
     }
-
     header {
       background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient from green to blue */
       padding: 10px 0;
       color: #fff; /* Text color for higher contrast */
       text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
     }
 
     /* Background Image Styling */
     .background-image {
-      background-image: url('https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE3MDU4MTM3MzE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800'); /* Replace with the actual path or URL to your image */
+      background-image: url('https://source.unsplash.com/800x600/?technology'); /* Replace with the actual path or URL to your image */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       min-height: 400px; /* Fixed height */
       width: 100%; /* Full width */
+      margin-top: 70px;
     }
     .profile-picture{
         border-style: solid;
         border-color: #ffff;
+        /* position: fixed;
+        top: 0;
+        z-index: 1000; */
+    }
+    .section-contributed img{
+        width: 150px;
+        height: 100px!important;
     }
   </style>
 </head>
 <body>
   <header>
-    <h2 style="font-size: 18px;">.NET Developer & AI Enthusiast</h2>
+    <h5>.NET Developer & AI Enthusiast</h5>
   </header>
 
   <main>
@@ -113,12 +124,12 @@
 
       <section>
         <h2>About Me</h2>
-             <p>I am a dedicated .NET developer with a profound passion for creating clean, maintainable, and efficient code. My journey into the world of technology began with a strong educational foundation in Informatics Engineering from Universitas Kahuripan Kediri, providing me with a comprehensive understanding of computer science and software development.</p>
+        <p>I am a dedicated .NET developer with a profound passion for creating clean, maintainable, and efficient code. My journey into the world of technology began with a strong educational foundation in Informatics Engineering from Universitas Kahuripan Kediri, providing me with a comprehensive understanding of computer science and software development.</p>
       </section>
 
       <section>
         <h2>Clean Code Advocate</h2>
-        <p>Throughout my 4 years of experience in software development, I have consistently emphasized the importance of clean code practices. I believe that writing code that is easy to read, maintain, and understand is crucial for delivering high-quality software solutions. This commitment to clean code has been instrumental in my projects, contributing to their robustness and scalability.</p>
+        <p>Throughout my [X] years of experience in software development, I have consistently emphasized the importance of clean code practices. I believe that writing code that is easy to read, maintain, and understand is crucial for delivering high-quality software solutions. This commitment to clean code has been instrumental in my projects, contributing to their robustness and scalability.</p>
       </section>
 
       <section>
@@ -135,7 +146,73 @@
         <h2>Future Endeavors</h2>
         <p>Looking ahead, I am eager to continue exploring the intersection of .NET development and AI. I aspire to contribute to the evolving landscape of artificial intelligence by integrating cutting-edge technologies into software solutions. My goal is to stay at the forefront of innovation and make meaningful contributions to the field.</p>
       </section>
+
+      <section>
+        <h2>Working Experience</h2>
+
+        <!-- Experience at PT. Wiratek Konsulting -->
+        <h4>PT. Wiratek Konsulting</h4>
+        <p>Position: .Net Developer</p>
+        <p>Duration: June 2019</p>
+        <p>-</p>
+
+        <!-- Experience at Manos Solusi -->
+        <h4>PT.Manos Solusi</h4>
+        <p>Position: .Net Developer</p>
+        <p>Duration: Nov 2019 - Mar 2021 </p>
+        <p>I played a crucial role in developing sophisticated software solutions.
+            Serving as a .NET Developer, I actively contributed to the creation of robust and scalable applications that met the diverse needs of our clients.
+            My responsibilities included Enhancement, re-factory, such as collaborating with the development team, implementing new features, and ensuring the quality and security of the applications.
+            This experience enriched my technical skills and provided a solid foundation for my subsequent roles in the banking sector.</p>
+
+        <!-- Experience at Sambu Group -->
+        <h4>PT.Sambu Group</h4>
+        <p>Position: .Net Developer</p>
+        <p>Duration: June 2021 - Feb 2022</p>
+        <p>As a .NET Developer at PT. Sambu Group, I undertook a pivotal role in managing and creating applications tailored to the unique needs of the world's largest coconut plantation and processing factory.
+            In this dynamic environment, my responsibilities extended to developing innovative solutions that aimed to streamline various processes within the company.
+            My contributions included create a application such as designing and implementing applications to enhance efficiency, collaborating with cross-functional teams, and incorporating innovative features to drive business processes forward.</p>
+
+        <!-- Experience at Pilar Timur Teknologi -->
+        <h4>PT.Pilar Timur Teknologi</h4>
+        <p>Position: .Net Developer</p>
+        <p>Duration: Feb 2022 - Jan 2024</p>
+        <p>As a .NET Developer at PT. Pilar Timur, I played a pivotal role in managing and enhancing client applications, contributing to the continuous improvement of our software ecosystem.
+            My responsibilities encompassed a broad spectrum, including the creation of new features, refactoring existing code for improved efficiency, and assuming leadership responsibilities within a small-scale development team.
+            I led the team in the development process, ensuring the successful delivery of high-quality solutions that met client expectations and industry standards.
+            Key aspects of my role included implement new fitur, bug fixing, optimization, such as collaborating with clients to understand requirements, leading the team through the development lifecycle, and ensuring code quality through refactoring initiatives</p>
+      </section>
+
+      <section class="section-contributed" style="text-align: center;">
+        <h4>Contributions to Major Companies</h4>
+      
+        <!-- Contribution at Bank Rakyat Indonesia (BRI) -->
+        <img src="https://brandingkan.com/wp-content/uploads/2023/02/Logo-BRI.jpg" style=" height: 150px;" alt="BRI Logo">
+      
+        <!-- Contribution at BTPN Permata Bank -->
+        <img src="https://images.glints.com/unsafe/1200x0/glints-dashboard.s3.amazonaws.com/company-logo/0be02f22fd035eaee2887211434a03a1.jpg" style=" height: 150px;"  alt="BTPN Permata Bank Logo">
+      
+        <!-- Contribution at Bank Negara Indonesia (BNI) -->
+        <img src="https://logowik.com/content/uploads/images/bni-bank-negara-indonesia8078.logowik.com.webp" style=" height: 150px;"  alt="BNI Logo">
+      
+        <!-- Contribution at BTPN -->
+        <img src="https://awsimages.detik.net.id/community/media/visual/2018/01/29/5d0507c2-c1a3-41dc-8a55-084369f388d0_169.jpeg?w=600&q=90" style="height: 150px;" alt="BTPN Logo">
+      
+        <!-- Contribution at PT. Sambu Group -->
+        <img src="https://www.openkerja.id/wp-content/uploads/2023/03/Lowongan-Kerja-Sambu-Group.jpg" style="height: 150px;" alt="PT. Sambu Group Logo">
+      
+        <!-- Contribution at PT. Komatsu Marketing Indonesia -->
+        <img src="https://liyanadew.files.wordpress.com/2017/10/logo-komatsu2.jpg"  style="height: 150px;" alt="PT. Komatsu Marketing Indonesia Logo">
+      
+        <!-- Contribution at United Tractor -->
+        <img src="https://yt3.googleusercontent.com/ytc/AIf8zZQJPfAAIunPEfouy4h7ukFD3dJxVmE3nEubDVRfQA=s900-c-k-c0x00ffffff-no-rj"  style="height: 150px;" alt="United Tractor Logo">
+      
+        <!-- Contribution at Biofarma -->
+        <img src="https://img.alinea.id/img/content/2021/07/07/114177/bio-farma-sebut-vaksin-pertama-dan-kedua-tidak-boleh-berbeda-WblgpM0Vwv.jpg"  style="height: 150px;" alt="Biofarma Logo">
+      </section>
     </div>
+
+    
 
     <!-- Parallax Initialization -->
     <!-- <script>
